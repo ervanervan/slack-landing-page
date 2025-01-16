@@ -28,7 +28,7 @@ const Button: React.FC<ButtonProps> = ({
     secondary:
       "bg-custom-white text-black border-2 border-black hover:bg-black hover:text-white",
     white:
-      "border-2 border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
+      "border-2 text-xs border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
   };
 
   return (
