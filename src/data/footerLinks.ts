@@ -49,3 +49,12 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const footerBottomLinks = [
+  { id: 1, name: "Status", url: "#" },
+  { id: 2, name: "Privacy", url: "#" },
+  { id: 3, name: "Terms", url: "#" },
+  { id: 4, name: "Cookie Preferences", url: "#" },
+  { id: 5, name: "Contact Us", url: "#" },
+  { id: 6, name: "Change Region", url: "#", isDropdown: true },
+];
