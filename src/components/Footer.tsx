@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
           <div className="flex space-x-4 items-center">
             <a
               href="#"
-              className="group relative border-2 border-black px-2 py-1.5 rounded-full group bg-custom-white hover:text-white transition-colors duration-200"
+              className="group relative border-2 border-black px-2 py-1.5 rounded-full group bg-custom-white hover:text-white transition-colors duration-200 shadow-[2px_2px_0px_rgba(0,0,0,1)]"
             >
               <div className="flex items-center gap-2">
                 <DownloadIcon className="w-5 h-5 text-black transition-colors duration-200 group-hover:text-white" />
@@ -91,7 +91,6 @@ const Footer: React.FC = () => {
                   Download Slack
                 </span>
               </div>
-              
             </a>
 
             <a href="#">
