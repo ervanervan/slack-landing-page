@@ -21,14 +21,15 @@ const Button: React.FC<ButtonProps> = ({
   iconPosition = "left",
 }) => {
   const baseStyles =
-    "px-4 py-2 rounded-full font-semibold text-sm transition-all duration-200 flex items-center gap-2";
+    "px-6 py-2.5 rounded-[14px] font-bold text-lg transition-all duration-200 flex items-center gap-2";
 
   const variantStyles = {
-    primary: "bg-black border-2 border-black bg-white text-black",
+    primary:
+      "bg-white text-black border-2 border-black hover:shadow-[4px_6px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
     secondary:
-      "bg-custom-white text-black border-2 border-black hover:bg-black hover:text-white",
+      "bg-black text-white border-2 border-black hover:shadow-[3px_4px_0px_rgb(210_110_218),6px_8px_0px_rgb(150_222_249)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
     white:
-      "border-2 text-xs border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
+      "px-2 py-1 font-semibold !text-sm border-2 text-xs border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
   };
 
   return (
