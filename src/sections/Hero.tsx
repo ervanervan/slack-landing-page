@@ -1,5 +1,5 @@
 import GoogleIcon from "../assets/icons/GoogleIcon";
-import Button from "./Button";
+import Button from "../components/Button";
 import heroImage from "../assets/images/hero-image.png";
 
 const Hero = () => {
