@@ -7,7 +7,7 @@ const Hero = () => {
     <section>
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center border-b-2 border-black">
         {/* Left section */}
-        <div className="bg-custom-purple w-full border-r-2 border-black h-full">
+        <div className="bg-custom-purple w-full md:border-r-2 border-black h-full">
           <div className="flex flex-col justify-center h-full px-4 py-16 xl:p-16">
             <div>
               <h1 className="text-custom-white text-[2.5rem] md:text-[2.1rem] font-semibold leading-none w-full md:max-w-[30.5rem]">
