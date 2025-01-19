@@ -14,6 +14,7 @@ export default {
           'light-green': '#5CF1A4',
           yellow: '#FFC700',
           gray: '#303030',
+          'gray-light': '#E7E6E9',
         },
       },
     },
