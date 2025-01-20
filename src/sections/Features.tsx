@@ -11,7 +11,7 @@ const Features: React.FC = () => {
       <div className="container mx-auto px-4 space-y-14">
         <FeatureCard
           title="Bring Your Team Together"
-          description="At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In channels, it’s easier to connect across departments, offices, time zones and even other companies."
+          description="At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In channels, it&apos;s easier to connect across departments, offices, time zones and even other companies."
           imgSrc={featureImg1}
           imgAlt="Channels"
           imagePosition="left"
@@ -19,7 +19,7 @@ const Features: React.FC = () => {
         />
         <FeatureCard
           title="Choose how you want to work"
-          description="In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live."
+          description="In Slack, you&apos;ve got all the flexibility to work when, where and how it&apos;s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live."
           imgSrc={featureImg2}
           imgAlt="Flexible"
           imagePosition="right"
