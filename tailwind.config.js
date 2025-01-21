@@ -17,6 +17,10 @@ export default {
           'gray-light': '#E7E6E9',
         },
       },
+
+      backgroundImage: {
+        "wave-pattern": "url('/images/wave-pattern.png')",
+      },
     },
   },
   plugins: [],
