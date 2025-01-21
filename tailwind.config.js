@@ -20,6 +20,7 @@ export default {
 
       backgroundImage: {
         "wave-pattern": "url('/images/wave-pattern.png')",
+        "sigma-pattern": "url('/images/sigma-pattern.png')",
       },
     },
   },
