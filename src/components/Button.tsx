@@ -29,7 +29,7 @@ const Button: React.FC<ButtonProps> = ({
     secondary:
       "bg-black text-white border-2 border-black hover:shadow-[3px_4px_0px_rgb(210_110_218),6px_8px_0px_rgb(150_222_249)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
     white:
-      "px-2 py-1 font-semibold !text-sm border-2 text-xs border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
+      "!px-2 !py-1 font-semibold !text-sm rounded-full border-2 text-xs border-black bg-white text-black border-2 border-black shadow-[2px_2px_0px_rgba(0,0,0,1)] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none",
   };
 
   return (
