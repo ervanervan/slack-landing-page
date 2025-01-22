@@ -1,8 +1,12 @@
+import articleImg1 from "../assets/images/article-image-1.png";
+import articleImg2 from "../assets/images/article-image-2.png";
+import articleImg3 from "../assets/images/article-image-3.png";
+
 export const articleList = [
   {
     title: "Slack as you Digital HQ",
     description: "",
-    image: "/path-to-image1.jpg",
+    image: articleImg1,
     category: "Collection",
     link: "#",
     isFeatured: true,
@@ -10,7 +14,7 @@ export const articleList = [
   {
     title: "See how others are building their digital HQ",
     description: "",
-    image: "/path-to-image2.jpg",
+    image: articleImg1,
     category: "Resource",
     link: "#",
     isFeatured: false,
@@ -18,7 +22,7 @@ export const articleList = [
   {
     title: "Win the battle for talent with a digital HQ",
     description: "",
-    image: "/path-to-image3.jpg",
+    image: articleImg2,
     category: "Webinar",
     link: "#",
     isFeatured: false,
@@ -26,7 +30,7 @@ export const articleList = [
   {
     title: "Reinventing work: New imperatives for the future of working",
     description: "",
-    image: "/path-to-image4.jpg",
+    image: articleImg3,
     category: "E-Book",
     link: "#",
     isFeatured: false,
