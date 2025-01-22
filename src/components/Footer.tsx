@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       {/* Bagian atas: Navigasi */}
-      <div className="bg-custom-purple text-custom-white py-10 px-4 lg:px-0">
+      <div className="bg-custom-purple text-custom-white py-10 px-4 lg:px-0 border-b-2 border-black">
         <div className="max-w-[980px] mx-auto flex flex-col lg:flex-row gap-y-8 items-start justify-between">
           <div>
             <img src={logoFooter} alt="Logo" className="size-14 -mt-1" />
