@@ -3,7 +3,7 @@ import { articleList } from "../data/articleList";
 
 const Articles = () => {
   return (
-    <section className="relative py-16 bg-custom-gray-light">
+    <section className="relative py-16 bg-custom-gray-light border-y-2 border-black">
       <div className="absolute inset-0 bg-sigma-pattern bg-repeat bg-[length:450px] opacity-20"></div>
       <div className="relative z-10 max-w-[61.25rem] mx-auto px-4 lg:px-0">
         <h2 className="text-center font-bold text-2xl text-white custom-text-shadow mb-16">
