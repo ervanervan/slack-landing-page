@@ -7,7 +7,7 @@ import FeatureCard from "../components/FeatureCard";
 
 const Features: React.FC = () => {
   return (
-    <section className="relative py-16 bg-custom-gray-light">
+    <section className="relative py-16 bg-custom-gray-light border-y-2 border-black">
       <div className="absolute inset-0 bg-wave-pattern bg-repeat bg-[length:450px] opacity-20"></div>
       <div className="relative z-10 container mx-auto px-4 space-y-14">
         <FeatureCard
