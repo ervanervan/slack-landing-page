@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Promo = () => {
   return (
-    <section className="py-16">
+    <section className="px-4 md:px-0 py-16 max-w-[980px] mx-auto">
       <div className="flex flex-col items-center justify-center">
         <div>
           <div className="flex items-end justify-center">
@@ -13,12 +13,12 @@ const Promo = () => {
             </h2>
             <img src={slackText} alt="" className="w-36 mb-2.5" />
           </div>
-          <p className="font-semibold text-lg text-center mt-3 w-full md:max-w-[37rem] mx-auto">
+          <p className="font-semibold text-lg md:text-center mt-3 w-full md:max-w-[37rem] mx-auto">
             Slack securely scales up to support collaboration at the
             world&apos;s biggest companies.
           </p>
         </div>
-        <div className="mt-14 flex items-center gap-3">
+        <div className="mt-14 flex flex-col md:flex-row items-center justify-center gap-3 w-full">
           <Button variant="secondary">Meet Slack For Enterprise</Button>
           <Button variant="primary">Talk to Sales</Button>
         </div>
