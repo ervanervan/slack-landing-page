@@ -10,7 +10,11 @@ const Testimonial = () => {
           alt=""
           className="absolute top-0 -left-16 -z-10"
         />
-        <img src={promoVideo} alt="" className="w-[26rem]" />
+        <img
+          src={promoVideo}
+          alt=""
+          className="w-[22rem] lg:w-[26rem] h-auto"
+        />
         <div className="flex flex-col md:p-3">
           <p className="text-2xl font-medium">
             “We were able to create a large virtual network of employees that
