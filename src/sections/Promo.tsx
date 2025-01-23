@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Promo = () => {
   return (
-    <section className="px-4 md:px-0 py-16 max-w-[980px] mx-auto">
+    <section className="px-4 lg:px-0 py-16 max-w-[980px] mx-auto">
       <div className="flex flex-col items-center justify-center">
         <div>
           <div className="flex items-end justify-center">
@@ -18,7 +18,7 @@ const Promo = () => {
             world&apos;s biggest companies.
           </p>
         </div>
-        <div className="mt-14 flex flex-col md:flex-row items-center justify-center gap-3 w-full">
+        <div className="mt-14 flex flex-col md:flex-row items-center justify-center gap-3 w-full lg:w-fit">
           <Button variant="secondary">Meet Slack For Enterprise</Button>
           <Button variant="primary">Talk to Sales</Button>
         </div>
