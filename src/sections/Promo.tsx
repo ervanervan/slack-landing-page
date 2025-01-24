@@ -24,7 +24,7 @@ const Promo = () => {
           <Button variant="secondary">Meet Slack For Enterprise</Button>
           <Button variant="primary">Talk to Sales</Button>
         </div>
-        <div className="mt-14 w-full md:w-[45rem] flex flex-col md:flex-row justify-center gap-24">
+        <div className="mt-14 w-full md:w-[45rem] flex flex-col items-center md:items-start md:flex-row justify-center gap-24">
           {stats.map((stat, index) => (
             <StatCard
               key={index}
