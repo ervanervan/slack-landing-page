@@ -15,7 +15,9 @@ const StatCard: React.FC<StatProps> = ({ percentage, text, color }) => {
       >
         {percentage}
       </span>
-      <p className="text-sm font-medium max-w-xs font-karla">{text}</p>
+      <p className="text-sm font-medium w-full md:max-w-xs font-karla">
+        {text}
+      </p>
     </div>
   );
 };
