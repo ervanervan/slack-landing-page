@@ -1,31 +1,34 @@
 import React from "react";
 
-type ButtonProps = {
+type StatButtonProps = {
   icon: React.ReactNode;
   count: number;
+  className?: React.ReactNode;
   size?: "small" | "medium" | "large" | "xlarge";
 };
 
 const sizeClasses = {
-  small: "p-2 text-sm",
-  medium: "p-3 text-base",
-  large: "p-4 text-lg",
-  xlarge: "p-5 text-xl",
+  small: "px-[9px] h-6 text-[10px]",
+  medium: "px-[11px] h-8 text-xs",
+  large: "px-3 h-[38px] text-sm",
+  xlarge: "px-4 h-10 text-base",
 };
 
-const IconButton: React.FC<ButtonProps> = ({
+const StatButton: React.FC<StatButtonProps> = ({
   icon,
   count,
+  className,
   size = "medium",
 }) => {
   return (
     <button
-      className={`flex items-center gap-2 border border-black rounded-full shadow-md hover:bg-gray-100 transition ${sizeClasses[size]}`}
+      className={`flex items-center h-8 gap-1 border border-black rounded-2xl bg-custom-white transition ${sizeClasses[size]} ${className}`}
+      disabled
     >
       <span className="text-yellow-500">{icon}</span>
-      <span className="font-semibold text-gray-800">{count}</span>
+      <span className="font-semibold">{count}</span>
     </button>
   );
 };
 
-export default IconButton;
+export default StatButton;
