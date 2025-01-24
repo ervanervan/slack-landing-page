@@ -1,5 +1,7 @@
 import slackText from "../assets/images/slack-text.svg";
 import Button from "../components/Button";
+import StatCard from "../components/StatCard";
+import { stats } from "../data/statData";
 
 const Promo = () => {
   return (
@@ -22,7 +24,16 @@ const Promo = () => {
           <Button variant="secondary">Meet Slack For Enterprise</Button>
           <Button variant="primary">Talk to Sales</Button>
         </div>
-        <div className="mt-14 flex items-center justify-center gap-24"></div>
+        <div className="mt-14 w-full md:w-[45rem] flex items-center justify-center gap-24">
+          {stats.map((stat, index) => (
+            <StatCard
+              key={index}
+              percentage={stat.percentage}
+              text={stat.text}
+              color={stat.color}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

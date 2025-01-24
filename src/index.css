@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Syne:wght@400..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +12,10 @@
 
 .font-syne {
   font-family: "Syne", sans-serif;
+}
+
+.font-karla {
+  font-family: "Karla", sans-serif;
 }
 
 .custom-text-shadow {
