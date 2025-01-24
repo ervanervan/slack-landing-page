@@ -12,7 +12,7 @@ import { stats } from "../data/statData";
 
 const Promo = () => {
   return (
-    <section className="px-4 lg:px-0 py-16 max-w-[980px] mx-auto">
+    <section className="px-4 lg:px-0 py-16 max-w-[980px] mx-auto overflow-hidden">
       <div className="flex flex-col items-center justify-center">
         <div className="relative">
           <div className="flex items-end justify-center">
