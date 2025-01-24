@@ -4,10 +4,13 @@ import featureImg1 from "../assets/images/feature-image-1.png";
 import featureImg2 from "../assets/images/feature-image-2.png";
 import featureImg3 from "../assets/images/feature-image-3.png";
 import FeatureCard from "../components/FeatureCard";
+import vectorChannels from "../assets/images/vector-channels.svg";
+import vectorAudio from "../assets/images/vector-audio.svg";
+import vectorTools from "../assets/images/vector-tools.svg";
 
 const Features: React.FC = () => {
   return (
-    <section className="relative py-16 bg-custom-gray-light border-y-2 border-black">
+    <section className="relative py-16 bg-custom-gray-light border-y-2 border-black overflow-hidden">
       <div className="absolute inset-0 bg-wave-pattern bg-repeat bg-[length:450px] opacity-20"></div>
       <div className="relative z-10 container mx-auto px-4 space-y-14">
         <FeatureCard
@@ -17,6 +20,7 @@ const Features: React.FC = () => {
           imgAlt="Channels"
           imagePosition="left"
           button="More about channels"
+          vectorImgSrc={vectorChannels}
         />
 
         <FeatureCard
@@ -26,6 +30,8 @@ const Features: React.FC = () => {
           imgAlt="Flexible"
           imagePosition="right"
           button="Flexible Communication"
+          vectorImgSrc={vectorAudio}
+          vectorImgPosition="left"
         />
 
         <FeatureCard
@@ -35,6 +41,7 @@ const Features: React.FC = () => {
           imgAlt="Tools"
           imagePosition="left"
           button="Learn more about channels"
+          vectorImgSrc={vectorTools}
         />
       </div>
     </section>

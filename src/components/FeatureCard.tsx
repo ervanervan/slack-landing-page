@@ -9,6 +9,8 @@ interface FeatureCardProps {
   imgAlt: string;
   imagePosition?: "left" | "right";
   button: string;
+  vectorImgSrc: string; // Properti gambar vektor
+  vectorImgPosition?: "left" | "right"; // Posisi gambar vektor
 }
 
 const FeatureCard: React.FC<FeatureCardProps> = ({
@@ -18,10 +20,12 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
   imgAlt,
   imagePosition = "left",
   button,
+  vectorImgSrc,
+  vectorImgPosition = "right", // Default posisi gambar vektor di kanan
 }) => {
   return (
     <div
-      className={`flex flex-col sm:flex-row items-center bg-white border-4 border-black py-1 rounded-xl  overflow-hidden shadow-[4px_6px_0px_rgba(0,0,0,1)] ${
+      className={`relative flex flex-col sm:flex-row items-center bg-white border-4 border-black py-1 rounded-xl shadow-[4px_6px_0px_rgba(0,0,0,1)] ${
         imagePosition === "right" ? "sm:flex-row-reverse" : ""
       }`}
     >
@@ -37,7 +41,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
           src={imgSrc}
           alt={imgAlt}
           className={`w-[34.5rem] h-auto ${
-            imagePosition === "left" ? "-ml-2" : "-mr-2"
+            imagePosition === "left" ? "-ml-1" : "-mr-1"
           }`}
         />
       </div>
@@ -55,6 +59,15 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
           {button}
         </Button>
       </div>
+
+      {/* Vector image */}
+      <img
+        src={vectorImgSrc}
+        alt="Vector Image"
+        className={`absolute -bottom-5 hidden md:inline-flex ${
+          vectorImgPosition === "right" ? "-right-20" : "-left-20"
+        }`}
+      />
     </div>
   );
 };
