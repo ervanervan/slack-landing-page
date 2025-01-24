@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="relative bg-custom-white text-black border-b-2 border-black">
+    <header className="fixed top-0 left-0 z-30 w-full bg-custom-white text-black border-b-2 border-black">
       <div className="mx-auto flex justify-between items-center h-[4.5rem]">
         {/* Logo & Navigation */}
         <div className="flex items-center h-full w-full">

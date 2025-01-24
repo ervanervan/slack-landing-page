@@ -5,7 +5,7 @@ import heroImage from "../assets/images/hero-image.png";
 const Hero = () => {
   return (
     <section>
-      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center border-b-2 border-black">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center border-b-2 border-black pt-16">
         {/* Left section */}
         <div className="bg-custom-purple w-full md:border-r-2 border-black h-full">
           <div className="flex flex-col justify-center h-full px-4 py-16 xl:p-16">
