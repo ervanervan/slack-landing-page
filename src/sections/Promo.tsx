@@ -12,7 +12,7 @@ import { stats } from "../data/statData";
 
 const Promo = () => {
   return (
-    <section className="px-4 lg:px-0 py-16 max-w-[980px] mx-auto overflow-hidden">
+    <section className="px-4 lg:px-0 py-16 max-w-[980px] mx-auto">
       <div className="flex flex-col items-center justify-center">
         <div className="relative">
           <div className="flex items-end justify-center">
@@ -31,37 +31,37 @@ const Promo = () => {
             icon={<LockedIcon size={24} />}
             count={12}
             size="xlarge"
-            className="absolute -top-4 -left-28"
+            className="absolute -top-4 hidden lg:-left-28"
           />
           <StatButton
             icon={<BriefcaseIcon size={18} />}
             count={30}
             size="medium"
-            className="absolute top-12 -left-40"
+            className="absolute top-12 hidden lg:-left-40"
           />
           <StatButton
             icon={<ChartIcon size={18} />}
             count={27}
             size="medium"
-            className="absolute -bottom-4 -left-28"
+            className="absolute -bottom-4 hidden lg:-left-28"
           />
           <StatButton
             icon={<FlexedBicepsIcon size={16} />}
             count={27}
             size="small"
-            className="absolute -top-4 -right-32"
+            className="absolute -top-4 hidden lg:-right-32"
           />
           <StatButton
             icon={<RedHeartIcon size={22} />}
             count={42}
             size="large"
-            className="absolute top-11 -right-28"
+            className="absolute top-11 hidden lg:-right-28"
           />
           <StatButton
             icon={<LoveYouIcon size={18} />}
             count={18}
             size="medium"
-            className="absolute -bottom-4 -right-40"
+            className="absolute -bottom-4 hidden lg:-right-40"
           />
         </div>
         <div className="mt-14 flex flex-col md:flex-row items-center justify-center gap-3 w-full lg:w-fit">
